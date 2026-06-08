@@ -106,6 +106,7 @@ export class PrinterService {
         url = url.replace(
           /localhost(:\d+)?/,
           (_match, port) => `host.docker.internal${port ?? ""}`,
+          // (_match, port) => `104.237.142.210${port ?? ""}`,
         );
 
         await page.setRequestInterception(true);

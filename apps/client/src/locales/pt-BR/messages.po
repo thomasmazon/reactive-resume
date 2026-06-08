@@ -1450,7 +1450,7 @@ msgstr "Armazene seus códigos de backup de forma segura"
 #: apps/client/src/pages/builder/sidebars/left/dialogs/references.tsx:81
 #: apps/client/src/pages/builder/sidebars/left/dialogs/volunteer.tsx:109
 msgid "Summary"
-msgstr "Resumo"
+msgstr "Perfil Profissional"
 
 #: apps/client/src/pages/builder/sidebars/right/sections/information.tsx:18
 msgid "Support the app by donating what you can!"
@@ -1779,4 +1779,3 @@ msgstr "Aumentar zoom"
 #: apps/client/src/pages/builder/_components/toolbar.tsx:118
 msgid "Zoom Out"
 msgstr "Diminuir o Zoom"
-

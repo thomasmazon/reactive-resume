@@ -24,7 +24,7 @@
   },
   "sections": {
     "summary": {
-      "name": "Objetivo Profissional",
+      "name": "Summary",
       "columns": 1,
       "visible": true,
       "id": "summary",
@@ -70,7 +70,7 @@
       ]
     },
     "education": {
-      "name": "Formação Escolar / Acadêmica",
+      "name": "Education",
       "columns": 1,
       "visible": true,
       "id": "education",
@@ -92,11 +92,37 @@
       ]
     },
     "experience": {
-      "name": "Experiência Profissional",
+      "name": "Experience",
       "columns": 1,
       "visible": true,
       "id": "experience",
       "items": [
+        {
+          "id": "lhw25d7gf32wgdfpsktf6e0x",
+          "visible": true,
+          "company": "Creative Solutions Inc.",
+          "position": "Senior Web Developer",
+          "location": "San Francisco, CA",
+          "date": "January 2019 to Present",
+          "summary": "<ul><li><p>Spearheaded the redesign of the main product website, resulting in a 40% increase in user engagement.</p></li><li><p>Developed and implemented a new responsive framework, improving cross-device compatibility.</p></li><li><p>Mentored a team of four junior developers, fostering a culture of technical excellence.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://creativesolutions.inc/"
+          }
+        },
+        {
+          "id": "r6543lil53ntrxmvel53gbtm",
+          "visible": true,
+          "company": "TechAdvancers",
+          "position": "Web Developer",
+          "location": "San Jose, CA",
+          "date": "June 2016 to December 2018",
+          "summary": "<ul><li><p>Collaborated in a team of 10 to develop high-quality web applications using React.js and Node.js.</p></li><li><p>Managed the integration of third-party services such as Stripe for payments and Twilio for SMS services.</p></li><li><p>Optimized application performance, achieving a 30% reduction in load times.</p></li></ul>",
+          "url": {
+            "label": "",
+            "href": "https://techadvancers.com/"
+          }
+        }
       ]
     },
     "volunteer": {
@@ -118,14 +144,63 @@
       "columns": 1,
       "visible": true,
       "id": "languages",
-      "items": []
+      "items": [
+        {
+          "id": "ey0c353j3apepzqmyl8zd37c",
+          "visible": true,
+          "name": "English",
+          "description": "Native Speaker",
+          "level": 0
+        },
+        {
+          "id": "a4dnf32wyj5phgln2rx97qk2",
+          "visible": true,
+          "name": "Spanish",
+          "description": "Intermediate",
+          "level": 0
+        }
+      ]
     },
     "profiles": {
       "name": "Profiles",
       "columns": 1,
       "visible": true,
       "id": "profiles",
-      "items": [ ]
+      "items": [
+        {
+          "id": "cnbk5f0aeqvhx69ebk7hktwd",
+          "visible": true,
+          "network": "LinkedIn",
+          "username": "johndoe",
+          "icon": "linkedin",
+          "url": {
+            "label": "",
+            "href": "https://linkedin.com/in/johndoe"
+          }
+        },
+        {
+          "id": "ukl0uecvzkgm27mlye0wazlb",
+          "visible": true,
+          "network": "GitHub",
+          "username": "johndoe",
+          "icon": "github",
+          "url": {
+            "label": "",
+            "href": "https://github.com/johndoe"
+          }
+        },
+        {
+          "id": "k97vdxzmssmgel79km48kxgg",
+          "visible": true,
+          "network": "StackOverflow",
+          "username": "johndoe",
+          "icon": "stackoverflow",
+          "url": {
+            "label": "",
+            "href": "https://stackoverflow.com/u/johndoe"
+          }
+        }
+      ]
     },
     "projects": {
       "name": "Projects",
@@ -188,7 +263,7 @@
       ]
     },
     "skills": {
-      "name": "Habilidades e Competências",
+      "name": "Skills",
       "columns": 1,
       "visible": true,
       "id": "skills",

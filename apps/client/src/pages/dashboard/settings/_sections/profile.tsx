@@ -19,8 +19,8 @@ import { LocaleComboboxPopover } from "@/client/components/locale-combobox";
 import { useUpdateUser, useUser } from "@/client/services/user";
 
 const formSchema = z.object({
-  theme: z.enum(["system", "light", "dark"]).default("system"),
-  locale: z.string().default("en-US"),
+  theme: z.enum(["system", "light", "dark"]).default("light"),
+  locale: z.string().default("pt-BR"),
 });
 
 type FormValues = z.infer<typeof formSchema>;
@@ -32,7 +32,7 @@ export const ProfileSettings = () => {
 
   const form = useForm<FormValues>({
     resolver: zodResolver(formSchema),
-    defaultValues: { theme, locale: "en-US" },
+    defaultValues: { theme, locale: "pt-BR" },
   });
 
   useEffect(() => {
